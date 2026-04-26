@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-glow"></div>
+      <header class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">Generador de Contraseñas</span>
+          <h1>Crea una contraseña segura y personalizada</h1>
+          <p class="hero-text">
+            Genera claves únicas con opciones de longitud, números, símbolos y mayúsculas. Protege tus cuentas con estilo.
+          </p>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <div class="icon-shield" aria-hidden="true">
+              <span class="shield-check">✓</span>
+            </div>
+            <div class="icon-lock" aria-hidden="true">🔒</div>
+          </div>
+
+          <div class="output-panel">
+            <div id="output" class="password-output">A7x$4Fk2!</div>
+            <button id="copyBtn" class="copy-button" type="button">Copiar</button>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="config-section">
+            <h2>Opciones de Configuración</h2>
+
+            <label class="range-label" for="longitud">
+              Longitud: <strong><span id="lengthValue">12</span></strong>
+            </label>
+            <input id="longitud" type="range" min="8" max="20" value="12" />
+
+            <div class="options-grid">
+              <label class="checkbox-card">
+                <input id="numeros" type="checkbox" checked />
+                <span class="checkbox-custom"></span>
+                Incluir Números
+              </label>
+              <label class="checkbox-card">
+                <input id="simbolos" type="checkbox" checked />
+                <span class="checkbox-custom"></span>
+                Incluir Símbolos
+              </label>
+              <label class="checkbox-card">
+                <input id="mayusculas" type="checkbox" checked />
+                <span class="checkbox-custom"></span>
+                Incluir Mayúsculas
+              </label>
+            </div>
+
+            <div class="strength-row">
+              <span class="strength-label">Fortaleza:</span>
+              <div class="strength-bar">
+                <div id="strengthLevel" class="strength-fill"></div>
+              </div>
+              <span id="strengthText" class="strength-text">Fuerte</span>
+            </div>
+
+            <button id="generateBtn" class="cta-button" type="button">Generar Contraseña</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="history-panel">
+        <h2>Historial Reciente</h2>
+        <ul id="historial" class="history-list"></ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
