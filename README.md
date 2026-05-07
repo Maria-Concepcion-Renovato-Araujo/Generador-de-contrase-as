@@ -1,5 +1,4 @@
 # Generador de Contraseñas 🔒✨
-https://maria-concepcion-renovato-araujo.github.io/Generador-de-contrase-as/ 
 
 ## 📌 Descripción
 Este proyecto genera contraseñas seguras y personalizadas. Permite configurar longitud, incluir números, símbolos y mayúsculas. Es mi primera página web en HTML, CSS y JavaScript publicada con GitHub Pages.
@@ -13,3 +12,4 @@ Este proyecto genera contraseñas seguras y personalizadas. Permite configurar l
 
 ## 🏆 Objetivo
 Este proyecto representa mi primera página web y mi inicio en el aprendizaje de desarrollo web.
+https://maria-concepcion-renovato-araujo.github.io/Generador-de-contrase-as/ 
