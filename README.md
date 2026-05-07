@@ -12,5 +12,4 @@ Este proyecto genera contraseñas seguras y personalizadas. Permite configurar l
 
 ## 🏆 Objetivo
 Este proyecto representa mi primera página web y mi inicio en el aprendizaje de desarrollo web.
-
 https://maria-concepcion-renovato-araujo.github.io/Generador-de-contrase-as/ 
